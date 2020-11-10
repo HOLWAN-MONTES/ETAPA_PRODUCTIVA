@@ -21,6 +21,156 @@ header{
 }
 .segui{
     padding: 10px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     text-align: center;
+}
+.proceso{
+    padding: 2px;
+    width: 308px;
+    font-size: 13px; 
+    color: #000;
+    position: relative;
+    margin-top: 120px;
+}
+.usuario{
+    text-align: right;
+}
+.usuario h1{
+    bottom: -20%;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.usuario img{
+    height: 100px;
+	width: 100px;
+    margin-left: 50px;
+    float: left;
+}
+.legal{
+    background: #BDBDBD;
+    text-align: center;
+    border-top: 2px solid #fff;
+    width: 307px;
+    height: 50px;
+}
+.certifi{
+    text-align: center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 307px;
+    height: 50px;   
+}
+.aprendiz{
+    text-align: center;
+    width: 307px;
+    height: 50px;
+}
+.busqueda{
+    border: 2px solid #000;
+    padding: 30px;
+    border-radius: 20px;
+    background: #BDBDBD;
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: relative;
+    margin: 20px;
+}
+form{
+    background: none;
+    overflow: hidden;
+    outline: none;
+    text-align: center;
+    font-size: 30px;
+}
+form input{
+    background: transparent;
+    font-size: 15px;
+}
+.primero{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+.primero input{
+    border: 2px solid #000;
+    font-size: 15px;    
+}
+.segundo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+.segundo input{
+    border: 2px solid #000;
+    font-size: 15px; 
+}
+#cancelar{
+    margin-top: 60px;
+    float: left;
+    border: 2px solid #000;
+    font-size: 15px; 
+}
+#guardar{
+    margin-top: 60px;
+    float: right;
+    border: 2px solid #000;
+    font-size: 15px; 
+}
+.documento{
+    float: left;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    width: 280px;
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+.documento input{
+    margin: 15px;
+    background: transparent;
+    font-size: 15px;
+}
+.datos_aprendiz table{
+    margin-top: 50px;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+table{
+    border-collapse: separate;
+    empty-cells: show;
+}
+.datos_aprendiz th{
+    text-align: center;
+}
+.datos_aprendiz td{
+    padding: 3px;
+   text-align: left;
+   border: 1px solid #000;
+   padding: 2px;
+}
+footer{
+    margin-top: 120px;   
+    width: 76%;
+    height: 50px;
+    background-color: #DB6B07;
+    padding: 1em;
+    font-size: 10px;
+    color:white;
+      
+}
+footer img{
+    margin-top: -63px;
+    display: table-cell;
+    padding: 1em;
+    width: 112px;
+    height: 60px;
+    float: right;
 }
