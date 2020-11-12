@@ -240,37 +240,38 @@ td{
 
 .pie{
     position: relative;
-    margin-top:31.56px;
+    margin-top: 11px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background:rgb(35, 133, 118);
     display: flex;
     align-items: flex-end;
-    border-top: 2px solid #fff;
     margin-left: 0px;
-   
+
 }
-.pie img
+
+.imgpie
 {
-    margin-left: 20px;
-    
+    margin: 2% 1% 2px 2%;
+    border-right: solid white;
+    width: 7%;
+}
+.imgpie img
+{
+  margin: 2% 2%;
+    width: 78%;
+    height: 60px;
 }
 .info 
 {
-   border-left: solid var(--white);
-   
+    margin-right: 10px;
+    width: 100%;
+    height: 84%;
+    text-align: end;
 }
 .info p
 {
     font-size: 13px;
     color: #fff;
-    font-family: Verdana;
-    margin: 5px;
-    margin-left: 30px;
-    font-family: Verdana;
+   
 }
-.icons
-{
-    margin-left: 380px;
-    
-}    
